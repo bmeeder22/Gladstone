@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/{id}', function($id) {
-    return $id;
-});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
