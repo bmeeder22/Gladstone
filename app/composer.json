@@ -1,0 +1,6 @@
+{
+    "require-dev": {
+        "backpack/generators": "^1.1",
+        "laracasts/generators": "^1.1"
+    }
+}
