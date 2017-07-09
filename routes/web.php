@@ -11,11 +11,14 @@
 |
 */
 
-Route::get('admin/test', function () {
-    return view('test');
+Route::group(['namespace' => 'admin', 'prefix' => 'admin', 'middlewear' => 'auth'], function() {
+
+    Route::get('test', function () {
+        return view('test');
+    });
+
 });
 
-
 Route::get('/', function () {
-    return view('welcome');
+    return view('landingpage');
 });
