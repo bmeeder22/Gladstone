@@ -1,4 +1,4 @@
-## Initalize New Backpack Project
+## Initialize New Backpack Project
 
 https://laravel-backpack.readme.io/docs/install-on-laravel-54
 
@@ -17,6 +17,6 @@ lessc --clean-css ~/Projects/Gladstone/public/vendor/adminlte/build/less/skins/_
 ```
 
 ## Setup
-1. a 
+1. a
 2. b
 3. c
