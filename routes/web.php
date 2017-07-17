@@ -20,5 +20,5 @@ Route::group(['namespace' => 'admin', 'prefix' => 'admin', 'middlewear' => 'auth
 });
 
 Route::get('/', function () {
-    return view('landingpage');
+    return view('landingpagev2');
 });
